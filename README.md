@@ -1,6 +1,6 @@
 # Applying my knowledge in HTML, CSS and JS? 🥇
 
-# live demo: 💥 https://magical-selkie-46c8a3.netlify.app/index.html 💥
+## live demo: 💥 https://magical-selkie-46c8a3.netlify.app/index.html 💥
 
 ## In this Repo the tools I used were:
 
