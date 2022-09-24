@@ -1,4 +1,4 @@
-# Applying my knowledge in HTML, CSS and JS? 🥇
+# Applying my knowledge in HTML5, CSS3, JS, jQuery & Plugins 🥇
 
 ## live demo: 💥 https://magical-selkie-46c8a3.netlify.app/index.html 💥
 
