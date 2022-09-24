@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Css file -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <link id="theme" rel="stylesheet" href="./css/theme_black.css" />
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- script to jquery-ui min ✅ -->
+        <script
+            type="text/javascript"
+            src="./jquery-ui/jquery-ui.min.js"
+        ></script>
+
+        <!-- jquery-ui css, structure and theme´✅ -->
+        <link rel="stylesheet" href="./jquery-ui/jquery-ui.min.css" />
+        <link rel="stylesheet" href="./jquery-ui/jquery-ui.structure.min.css" />
+        <link rel="stylesheet" href="./jquery-ui/jquery-ui.theme.min.css" />
+
+        <!-- Plugin validacion -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+        <!-- Script JS   -->
+        <script type="text/javascript" src="./js/main.js"></script>
+
+        <title>FTD</title>
+    </head>
+
+    <body>
+        <div id="change_theme">
+            <div id="to_change_b"></div>
+            <div id="to_change"></div>
+        </div>
+        <section id="global">
+            <!-- header side ⬇️  -->
+            <header>
+                <div id="logo">
+                    <h1>Freedom To Dream</h1>
+                </div>
+                <div class="clear_fix"></div>
+                <nav id="nav_bar">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./watch.html">Watch</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="box_contact">
+                <h2>Contact</h2>
+                <form action="" method="post" id="form_contact">
+                    <label for="name">Name</label>
+                    <input
+                        type="name"
+                        name="name"
+                        placeholder="put your name"
+                        data-validation="alphanumeric"
+                    />
+                    <br />
+
+                    <label for="lastname">Last Name</label>
+                    <input
+                        type="lastname"
+                        name="lastname"
+                        placeholder="put your lastname"
+                        data-validation="alphanumeric"
+                    />
+                    <br />
+
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="put your email"
+                        data-validation="email"
+                    />
+                    <br />
+
+                    <label for="gender">Gender</label>
+                    <!-- <input type="text" name="gender" placeholder="put your gender"> -->
+                    <select name="gender" id="" data-validation="required">
+                        <option value="men" >---choose ⬇️ ----</option>
+                        <option value="men">Men 🧑</option>
+                        <option value="woman">Woman 👩</option>
+                        <option value="alien">Alien 👽</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <br />
+
+                    <label for="birth"> Birth</label>
+                    <input
+                        type="birth"
+                        name="birth"
+                        placeholder="put your birth"
+                        data-validation="date"
+                        data-validation-format="dd/mm/yyyy"
+                    />
+                    <br />
+
+                    <label for="age">Age</label>
+                    <input
+                        type="number"
+                        name="age"
+                        placeholder="put your age"
+                        data-validation="number"
+                    />
+                    <br />
+
+                    <input type="submit" value="Send" />
+                </form>
+            </div>
+        </section>
+        <footer>
+            <h3>Blog ©catellaTech 2022</h3>
+            <a href="#" class="up">scroll up</a>
+        </footer>
+    </body>
+</html>

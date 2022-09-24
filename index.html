@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Css file -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <link id="theme" rel="stylesheet" href="./css/theme_black.css" />
+
+        <!-- Script JS   -->
+        <script type="text/javascript" src="./js/main.js"></script>
+
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- bxSlider -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+        />
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <title>FTD</title>
+    </head>
+
+    <body>
+        <div id="change_theme">
+            <div id="to_change_b"></div>
+            <div id="to_change"></div>
+        </div>
+        <section id="global">
+            <!-- header side ⬇️  -->
+            <header>
+                <div id="logo">
+                    <h1>Freedom To Dream</h1>
+                </div>
+                <div class="clear_fix"></div>
+                <nav id="nav_bar">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./watch.html">Watch</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- content side ⬇️ -->
+            <section id="content_sect">
+                <!-- post will we call from javascript -->
+                <div id="posts"></div>
+
+                <div class="png">
+                    <div><img src="./img/04.jpeg" title="Funky roots" /></div>
+                    <div>
+                        <img
+                            src="./img/02.jpeg"
+                            title="The long and winding road"
+                        />
+                    </div>
+                    <div><img src="./img/03.jpeg" title="Happy trees" /></div>
+                </div>
+
+                <div id="original">
+                    <p id="text_01">🥂 This is the Rhode collection! 🥂</p>
+                </div>
+                <div id="login">
+                    <h3><span id="tittle_h3">Who are u?</span></h3>
+                    <form action="">
+                        <label for="name">Name</label>
+                        <br />
+                        <input
+                            type="name"
+                            name="name"
+                            id="name"
+                            placeholder="put your name"
+                        />
+
+                        <br />
+                        <label for="email">Email</label>
+                        <br />
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="put your email"
+                        />
+                        <br />
+                        <label for="password">Password</label>
+                        <br />
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="put your password"
+                        />
+                        <br />
+                        <input type="submit" value="login" />
+                    </form>
+                </div>
+
+                <div class="clear_fix"></div>
+            </section>
+        </section>
+        <footer>
+            <h3>Blog ©catellaTech 2022</h3>
+            <a href="#" class="up">scroll up</a>
+        </footer>
+    </body>
+</html>

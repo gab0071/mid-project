@@ -1,0 +1,50 @@
+body {
+    /* background-color: var(--grey); */
+    background: linear-gradient(20deg, #414141, black);
+}
+
+#global {
+    background-color: #ccf064;
+}
+
+#nav_bar {
+    background-color: #414141;
+}
+
+#nav_bar li:hover {
+    background-color: #7552ff;
+}
+#nav_bar a {
+    color: white;
+}
+
+.btn_more {
+    background-color: #7552ff;
+}
+
+.btn_log {
+    background-color: #7552ff;
+}
+
+footer {
+    background-color: #ccf064;
+    color: black;
+}
+
+#change_theme {
+    background-color: rgba(51, 51, 51, 0.3);
+}
+
+.up {
+    background-color: #7552ff;
+}
+form input[type='submit'] {
+    background-color: #7552ff;
+    border-color: black;
+}
+#login h3 #tittle_h3 {
+    color: #7552ff;
+}
+#about_us a {
+    color: #7552ff;
+}

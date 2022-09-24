@@ -1,0 +1,366 @@
+/* colors palet
+* backgroung = white and grey
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cavea&family=DynaPuff&family=Montserrat:wght@500&display=swap');
+
+:root {
+    --green: #ccf064 
+    --pink: #ff5fac
+    --purple: #7552ff
+    --grey: #414141
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    /* background-color: var(--grey); */
+    background: linear-gradient(20deg ,#414141, black);
+
+}
+
+#global {
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 25px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+#logo h1{
+    text-align: center;
+    width: 385;
+    margin-bottom: -50px;
+    margin-left: 440px;
+    margin-top: 87px;
+    line-height: 80px;
+    font-size: 70px;
+    font-family: 'DynaPuff',cursive;
+    letter-spacing: 3px;
+    transform: translate(-50%,-50%);
+    text-shadow: 5px 5px #7552ff;
+    -webkit-text-fill-color: #ff5fac;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #414141;
+}
+.clear_fix {
+  float: none;
+  clear: both;
+}
+
+#nav_bar{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#nav_bar ul {
+    line-height: 46px;
+}
+#nav_bar li {
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+#nav_bar li:hover {
+    background-color: #7552ff;
+}
+#nav_bar a {
+    display: block;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#posts {
+    width: 60%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.art_post {
+    padding: 15px;
+}
+
+.art_post h2 {
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.art_post .date_post {
+    display: block;
+    color: grey;
+    margin-top: 3px;
+}
+
+.art_post p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+.btn_more {
+    display: block;
+    width: 73px;
+    padding: 15px;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 190px;
+    border: 2px solid #414141;
+}
+.btn_log{
+    width: 73px;
+    padding: 15px;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+     border: 2px solid #414141;
+}
+/* png img {
+    width: 283px;
+    height: 377px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px #7552ff;
+} */ */
+
+.bx-viewport{
+    height: 3000px;
+
+}
+.bx-wrapper {
+    position: relative;
+    margin-top: 50px;
+    height: 355px;
+    width: 283px;
+    margin-left: 550px;
+    padding: 10px;
+    max-width: none;
+}
+
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    margin: 0px auto;
+    width: 65%;
+    padding: 25px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-top: 0px;
+    line-height: 47px;
+    border: 4px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+} 
+footer h3 {
+    font-size: 22px;
+}
+
+#change_theme{
+    position: fixed;
+    top: 40%;
+    background-color: rgba(51, 51, 51, 0.3);
+    width: 50px;
+    height: 103px;
+}
+
+#to_change, #to_change_b{
+    width: 30px;
+    height: 30px;
+    margin-top: 13px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#to_change_b {
+    background-color: #414141;
+}
+
+#to_change {
+    background-color: #ccf064;
+}
+
+.up {
+    width: 83px;
+    padding: 5px;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+     border: 2px solid #414141;
+    display: block;
+    float: right;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+form input[type="name"],
+form input[type="email"],
+form input[type="password"]{
+  padding: 5px;
+  border-radius: 2px;
+  border-color: 1px solid #ccc;
+  width: 220px;
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+form input[type="submit"] {
+    color: white;
+    margin-left: 129px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 8px;
+    width: 70px;
+    
+}
+form label {
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+form {
+    margin-top: 15px;
+}
+
+#login h3 #tittle_h3{
+    font-family: cursive;
+    margin-left: 85px;
+    font-size: 28px;
+    text-decoration:underline;
+}
+
+#text_01 {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#login {
+    height: 1600px;
+
+}
+
+#original {
+    margin-left: 100px;
+}
+
+#about_us {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    padding: 40px;
+    text-align: justify;
+}
+#about_us a {
+    color: #7552ff;
+}
+
+#box_accordion {
+    width: 60%;
+    margin-left: 180px;
+    margin-bottom: 40px;
+}
+#qa {
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 390px;
+    margin-bottom: 10px;
+}
+
+#watch {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414141;
+    border: 5px solid #414141;
+    width: 50%;
+    padding: 30px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#form_contact {
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form_contact label{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+#form_contact input[type="name"],
+#form_contact input[type="email"],
+#form_contact input[type="number"],
+#form_contact input[type="lastname"],
+#form_contact input[type="birth"],
+select{
+  padding: 7px;
+  border-radius: 4px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 8px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  
+}
+#form_contact input[type="submit"] {
+    color: white;
+    margin-left: 129px;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 8px;
+    width: 170px;
+
+    
+}
+
+.form-error  {
+    color: darkred;
+    font-weight: 600;
+}
+
+#box_contact h2{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 35px;
+    font-family: cursive;
+
+}
+
+
+
+
+
+
+
+
+

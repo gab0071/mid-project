@@ -1,0 +1,51 @@
+body {
+    /* background-color: var(--grey); */
+    background: #ccf064;
+
+}
+
+#global {
+    background-color: grey ;
+}
+
+#nav_bar{
+    background-color: #ccf064;
+}
+
+#nav_bar li:hover {
+    background-color: #7552ff;
+}
+#nav_bar a {
+    color: black;
+}
+
+.btn_more {
+    background-color: #ff5fac;
+}
+
+.btn_log{
+    background-color: #ff5fac;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+}
+
+#change_theme {
+   background-color:rgba(51, 51, 51, 0.3)
+}
+
+.up{
+     background-color: #ff5fac;
+}
+form input[type="submit"] {
+    background-color: #414141;
+    border-color: #ccf064;
+}
+#login h3 #tittle_h3{
+        color: #ccf064;
+}
+#about_us a {
+    color: #ccf064;
+}
